@@ -17,7 +17,7 @@ const Banner = () => {
             </div>
 
             {/* Banner Content */}
-            <div className="relative z-10 mx-auto flex min-h-[100svh] max-h-[100svh] w-[94%] items-center py-16 md:min-h-[570px] md:max-h-none md:w-[92%] lg:min-h-screen lg:w-[88%]">
+            <div className="relative z-10 mx-auto flex h-[70vh] w-[94%] items-center py-10 md:min-h-[570px] md:h-auto md:w-[92%] md:py-16 lg:min-h-screen lg:w-[88%]">
 
                 <div className="max-w-2xl">
 

@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Link, Links } from 'react-router';
 import { WatchContext } from '../context/WatchProvider';
 import {
@@ -12,41 +12,63 @@ import {
 
 
 
-const Wishlist = () => {
+const Wishlist = ({ sortingType }) => {
 
     const { wishlist } = useContext(WatchContext);
+
+
+    const [filteredWishlist, setFilteredWishlist] = useState(wishlist);
+    useEffect(() => {
+        if (sortingType) {
+            if (sortingType === "rating") {
+                const sortedData = [...wishlist].sort((a, b) => a.ratingAvg - b.ratingAvg)
+                setFilteredWishlist(sortedData)
+            }
+            else if (sortingType === "price") {
+                const sortedData = [...wishlist].sort((a, b) => a.price - b.price)
+                setFilteredWishlist(sortedData)
+            }
+            else if (sortingType === "name") {
+                const sortedData = [...wishlist].sort((a, b) => a.watchName.localeCompare(b.watchName)
+                );
+                setFilteredWishlist(sortedData)
+            }
+        }
+
+    }, [sortingType, wishlist])
+
 
     return (
         <div className="mb-10 mx-auto py-8">
 
             {/* Empty Message */}
-{
-    wishlist.length === 0 && (
-        <div className="flex flex-col items-center justify-center text-center bg-[#F8F8F6] border border-gray-200 rounded-2xl py-16 md:py-20">
+            {
+                wishlist.length === 0 && (
+                    <div className="flex flex-col items-center justify-center text-center bg-[#F8F8F6] border border-gray-200 rounded-2xl py-16 md:py-20">
 
-            <Heart size={44} className="text-[#B89B5E] mb-4" />
+                        <Heart size={44} className="text-[#B89B5E] mb-4" />
 
-            <h2 className="text-xl md:text-2xl font-bold font-serif text-[#0B1736]">
-                Your Wishlist Is Empty!
-            </h2>
+                        <h2 className="text-xl md:text-2xl font-bold font-serif text-[#0B1736]">
+                            Your Wishlist Is Empty!
+                        </h2>
 
-            <p className="text-sm text-gray-500 max-w-md mt-3 leading-6">
-                You haven't added any watches to your wishlist yet.
-                Explore our exclusive collection and save your
-                favorite timepieces for later.
-            </p>
+                        <p className="text-sm text-gray-500 max-w-md mt-3 leading-6">
+                            You haven't added any watches to your wishlist yet.
+                            Explore our exclusive collection and save your
+                            favorite timepieces for later.
+                        </p>
 
-            <Link
-                to="/collections"
-                className="mt-6 flex items-center gap-2 px-6 py-3 rounded-full bg-[#0B1736] hover:bg-[#16294F] text-white text-sm font-semibold transition-colors"
-            >
-                Explore Collection
-                <ArrowRight size={16} />
-            </Link>
+                        <Link
+                            to="/collections"
+                            className="mt-6 flex items-center gap-2 px-6 py-3 rounded-full bg-[#0B1736] hover:bg-[#16294F] text-white text-sm font-semibold transition-colors"
+                        >
+                            Explore Collection
+                            <ArrowRight size={16} />
+                        </Link>
 
-        </div>
-    )
-}
+                    </div>
+                )
+            }
 
 
 
@@ -57,7 +79,8 @@ const Wishlist = () => {
             <div className="space-y-4">
 
                 {
-                    wishlist.map(watch => (
+                    // wishlist.map(watch => (
+                    filteredWishlist.map(watch => (
 
                         <div
                             key={watch.watchId}

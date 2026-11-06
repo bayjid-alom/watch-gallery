@@ -67,10 +67,10 @@ const ListedWatch = () => {
                     </TabList>
 
                     <TabPanel>
-                        <Cartlist></Cartlist>
+                        <Cartlist sortingType={sortingType}></Cartlist>
                     </TabPanel>
                     <TabPanel>
-                        <Wishlist></Wishlist>
+                        <Wishlist sortingType={sortingType}></Wishlist>
                     </TabPanel>
                 </Tabs>
 

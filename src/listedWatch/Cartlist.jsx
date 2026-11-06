@@ -1,5 +1,4 @@
-
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Link, Links } from 'react-router';
 import { WatchContext } from '../context/WatchProvider';
 import {
@@ -10,9 +9,34 @@ import {
     ShoppingBag
 } from 'lucide-react';
 
-const Cartlist = () => {
 
+const Cartlist = ({ sortingType }) => {
     const { cart } = useContext(WatchContext);
+
+
+    const [filteredCart, setFilteredCart] = useState(cart);
+    useEffect(() => {
+        if (sortingType) {
+            if (sortingType === "rating") {
+                const sortedData = [...cart].sort((a, b) => a.ratingAvg - b.ratingAvg)
+                setFilteredCart(sortedData)
+            }
+            else if (sortingType === "price") {
+                const sortedData = [...cart].sort((a, b) => a.price - b.price)
+                setFilteredCart(sortedData)
+            }
+            else if (sortingType === "name") {
+                const sortedData = [...cart].sort((a, b) => a.watchName.localeCompare(b.watchName)
+                );
+                setFilteredCart(sortedData)
+            }
+        }
+
+    }, [sortingType, cart])
+
+
+
+
 
     return (
         <div className="mb-10 mx-auto py-8">
@@ -55,7 +79,8 @@ const Cartlist = () => {
             <div className="space-y-4">
 
                 {
-                    cart.map(watch => (
+                    // cart.map(watch => (
+                    filteredCart.map(watch => (
 
                         <div
                             key={watch.watchId}

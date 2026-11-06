@@ -30,7 +30,7 @@ export const router = createBrowserRouter([
             }
         ],
         errorElement: <div>
-            <h2 className="flex justify-center mt-25 text-6xl text-red-500">404!</h2>
+            <h2 className="flex font-extrabold justify-center mt-25 text-6xl text-red-500">404!</h2>
         </div>
     }
 ])
