@@ -1,0 +1,372 @@
+[
+    {
+        "watchId": 1,
+        "watchName": "Chronograph Elite",
+        "brand": "Fossil",
+        "image": "https://www.cortinawatch.com/wp-content/uploads/2025/02/Glashuette-Original_Cortina-Watch-Brand-Thumbnail-Image-2.webp",
+        "description": "The Chronograph Elite is designed for people who appreciate timeless elegance and modern functionality. It features a sophisticated dial with carefully crafted details that create a premium appearance. Its stainless steel case offers durability while maintaining a refined finish. The comfortable strap makes it suitable for extended daily wear. The chronograph-inspired design adds a sporty yet professional touch to your style. Whether you are attending a business meeting or a special event, this watch completes your look with confidence.",
+        "price": 12500,
+        "reviews": "12.5K",
+        "ratingAvg": 4.8,
+        "category": "Luxury Watches",
+        "watchType": "Analog",
+        "movement": "Quartz",
+        "material": "Stainless Steel",
+        "stock": 15,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 120
+            },
+            {
+                "name": "2 star",
+                "count": 250
+            },
+            {
+                "name": "3 star",
+                "count": 850
+            },
+            {
+                "name": "4 star",
+                "count": 3200
+            },
+            {
+                "name": "5 star",
+                "count": 8080
+            }
+        ]
+    },
+    {
+        "watchId": 2,
+        "watchName": "Heritage Classic",
+        "brand": "Casio",
+        "image": "https://www.cortinawatch.com/wp-content/uploads/2025/02/Glashuette-Original_Cortina-Watch-Brand-Thumbnail-Image-2.webp",
+        "description": "The Heritage Classic brings together traditional watchmaking inspiration and a clean modern aesthetic. Its minimalist dial creates a timeless appearance that never goes out of style. The carefully designed stainless steel case provides reliable everyday durability. A comfortable construction ensures that you can wear it throughout your busy day. Its versatile design pairs beautifully with formal shirts, casual outfits, and office wear. This watch is an excellent choice for those who prefer simplicity, practicality, and understated elegance.",
+        "price": 8500,
+        "reviews": "8.4K",
+        "ratingAvg": 4.6,
+        "category": "Classic Watches",
+        "watchType": "Analog",
+        "movement": "Quartz",
+        "material": "Stainless Steel",
+        "stock": 22,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 180
+            },
+            {
+                "name": "2 star",
+                "count": 320
+            },
+            {
+                "name": "3 star",
+                "count": 1100
+            },
+            {
+                "name": "4 star",
+                "count": 2500
+            },
+            {
+                "name": "5 star",
+                "count": 4300
+            }
+        ]
+    },
+    {
+        "watchId": 3,
+        "watchName": "SportX Pro",
+        "brand": "Seiko",
+        "image": "https://www.cortinawatch.com/wp-content/uploads/2025/02/Glashuette-Original_Cortina-Watch-Brand-Thumbnail-Image-2.webp",
+        "description": "The SportX Pro is created for individuals who enjoy an active lifestyle and bold everyday accessories. Its sporty design features a distinctive dial that gives the watch a powerful and modern appearance. The durable resin construction makes it lightweight and comfortable during daily activities. Its water-resistant design adds extra convenience for outdoor adventures and regular use. The easy-to-read display helps you check the time quickly whenever you need it. Whether you are travelling, exercising, or spending time outdoors, this watch is a practical companion.",
+        "price": 18500,
+        "reviews": "15.2K",
+        "ratingAvg": 4.9,
+        "category": "Sports Watches",
+        "watchType": "Digital",
+        "movement": "Quartz",
+        "material": "Resin",
+        "stock": 12,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 90
+            },
+            {
+                "name": "2 star",
+                "count": 160
+            },
+            {
+                "name": "3 star",
+                "count": 550
+            },
+            {
+                "name": "4 star",
+                "count": 3400
+            },
+            {
+                "name": "5 star",
+                "count": 11000
+            }
+        ]
+    },
+    {
+        "watchId": 4,
+        "watchName": "Royal Automatic",
+        "brand": "Tissot",
+        "image": "https://www.cortinawatch.com/wp-content/uploads/2025/02/Glashuette-Original_Cortina-Watch-Brand-Thumbnail-Image-2.webp",
+        "description": "The Royal Automatic represents the perfect combination of sophisticated design and traditional watchmaking inspiration. Its elegant dial and polished stainless steel case create a luxurious appearance. The automatic movement adds a classic mechanical touch for watch enthusiasts. Every design detail reflects a balance of precision, craftsmanship, and timeless beauty. Its premium finishing makes it an excellent accessory for formal occasions and special celebrations. The comfortable bracelet provides a secure and refined wearing experience. If you appreciate luxury, quality, and classic design, this watch is a remarkable addition to your collection.",
+        "price": 32500,
+        "reviews": "6.8K",
+        "ratingAvg": 4.9,
+        "category": "Luxury Watches",
+        "watchType": "Analog",
+        "movement": "Automatic",
+        "material": "Stainless Steel",
+        "stock": 8,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 40
+            },
+            {
+                "name": "2 star",
+                "count": 100
+            },
+            {
+                "name": "3 star",
+                "count": 260
+            },
+            {
+                "name": "4 star",
+                "count": 1460
+            },
+            {
+                "name": "5 star",
+                "count": 4940
+            }
+        ]
+    },
+    {
+        "watchId": 5,
+        "watchName": "Urban Minimalist",
+        "brand": "Titan",
+        "image": "https://www.cortinawatch.com/wp-content/uploads/2025/02/Glashuette-Original_Cortina-Watch-Brand-Thumbnail-Image-2.webp",
+        "description": "The Urban Minimalist is designed for modern individuals who believe that simplicity creates the strongest impression. Its clean dial and balanced proportions deliver a sophisticated yet effortless appearance. The lightweight construction makes it comfortable for everyday activities and long working hours. Its elegant leather strap adds a warm and refined touch to the overall design. The versatile appearance allows you to pair it with casual outfits, office clothing, and smart everyday looks. With its practical quartz movement, it offers convenient timekeeping for your daily routine.",
+        "price": 6500,
+        "reviews": "9.6K",
+        "ratingAvg": 4.5,
+        "category": "Casual Watches",
+        "watchType": "Analog",
+        "movement": "Quartz",
+        "material": "Leather",
+        "stock": 30,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 250
+            },
+            {
+                "name": "2 star",
+                "count": 450
+            },
+            {
+                "name": "3 star",
+                "count": 1400
+            },
+            {
+                "name": "4 star",
+                "count": 2800
+            },
+            {
+                "name": "5 star",
+                "count": 4700
+            }
+        ]
+    },
+    {
+        "watchId": 6,
+        "watchName": "Oceanic Diver",
+        "brand": "Citizen",
+        "image": "https://www.cortinawatch.com/wp-content/uploads/2025/02/Glashuette-Original_Cortina-Watch-Brand-Thumbnail-Image-2.webp",
+        "description": "The Oceanic Diver is designed for adventure lovers who appreciate both performance and style. Its bold dial and durable stainless steel construction create a confident appearance. The carefully crafted design offers excellent readability and comfortable everyday wear. Inspired by professional diving watches, it brings a sporty character to your collection. Its versatile appearance makes it suitable for outdoor activities, casual outings, and everyday adventures.",
+        "price": 22000,
+        "reviews": "11.3K",
+        "ratingAvg": 4.7,
+        "category": "Sports Watches",
+        "watchType": "Analog",
+        "movement": "Quartz",
+        "material": "Stainless Steel",
+        "stock": 18,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 100
+            },
+            {
+                "name": "2 star",
+                "count": 230
+            },
+            {
+                "name": "3 star",
+                "count": 870
+            },
+            {
+                "name": "4 star",
+                "count": 3100
+            },
+            {
+                "name": "5 star",
+                "count": 7000
+            }
+        ]
+    },
+    {
+        "watchId": 7,
+        "watchName": "Midnight Prestige",
+        "brand": "Rolex",
+        "image": "https://www.cortinawatch.com/wp-content/uploads/2025/02/Glashuette-Original_Cortina-Watch-Brand-Thumbnail-Image-2.webp",
+        "description": "The Midnight Prestige showcases a luxurious design inspired by timeless elegance and refined craftsmanship. Its sophisticated dark dial creates a striking contrast against the polished metal case. Carefully selected materials provide durability while maintaining a premium appearance. The elegant bracelet ensures a comfortable and secure fit throughout the day. Perfect for formal occasions, business meetings, and special celebrations, this watch makes a confident statement.",
+        "price": 48500,
+        "reviews": "7.2K",
+        "ratingAvg": 4.9,
+        "category": "Luxury Watches",
+        "watchType": "Analog",
+        "movement": "Automatic",
+        "material": "Stainless Steel",
+        "stock": 6,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 35
+            },
+            {
+                "name": "2 star",
+                "count": 85
+            },
+            {
+                "name": "3 star",
+                "count": 280
+            },
+            {
+                "name": "4 star",
+                "count": 1500
+            },
+            {
+                "name": "5 star",
+                "count": 5300
+            }
+        ]
+    },
+    {
+        "watchId": 8,
+        "watchName": "Retro Digital",
+        "brand": "Casio",
+        "image": "https://www.cortinawatch.com/wp-content/uploads/2025/02/Glashuette-Original_Cortina-Watch-Brand-Thumbnail-Image-2.webp",
+        "description": "The Retro Digital brings nostalgic styling together with practical modern functionality. Its compact digital display offers a clean and easy-to-read appearance. The lightweight resin construction ensures comfortable wear throughout busy days. Inspired by classic digital watches, its unique design adds personality to both casual and everyday outfits. Whether you are heading to college, travelling, or enjoying a relaxed weekend, this watch offers reliable everyday convenience.",
+        "price": 4200,
+        "reviews": "18.7K",
+        "ratingAvg": 4.6,
+        "category": "Casual Watches",
+        "watchType": "Digital",
+        "movement": "Quartz",
+        "material": "Resin",
+        "stock": 35,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 400
+            },
+            {
+                "name": "2 star",
+                "count": 650
+            },
+            {
+                "name": "3 star",
+                "count": 1800
+            },
+            {
+                "name": "4 star",
+                "count": 5200
+            },
+            {
+                "name": "5 star",
+                "count": 10650
+            }
+        ]
+    },
+    {
+        "watchId": 9,
+        "watchName": "Executive Silver",
+        "brand": "Tissot",
+        "image": "https://www.cortinawatch.com/wp-content/uploads/2025/02/Glashuette-Original_Cortina-Watch-Brand-Thumbnail-Image-2.webp",
+        "description": "The Executive Silver combines sophisticated styling with dependable everyday performance. Its silver-tone dial and refined stainless steel bracelet create a polished and professional appearance. The carefully balanced design offers excellent comfort and timeless appeal. Its precise quartz movement provides convenient timekeeping for everyday routines. Designed for professionals and style-conscious individuals, this watch complements business attire, formal clothing, and smart casual outfits.",
+        "price": 15800,
+        "reviews": "5.9K",
+        "ratingAvg": 4.7,
+        "category": "Classic Watches",
+        "watchType": "Analog",
+        "movement": "Quartz",
+        "material": "Stainless Steel",
+        "stock": 20,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 80
+            },
+            {
+                "name": "2 star",
+                "count": 170
+            },
+            {
+                "name": "3 star",
+                "count": 550
+            },
+            {
+                "name": "4 star",
+                "count": 1700
+            },
+            {
+                "name": "5 star",
+                "count": 3400
+            }
+        ]
+    },
+    {
+        "watchId": 10,
+        "watchName": "Leather Signature",
+        "brand": "Fossil",
+        "image": "https://www.cortinawatch.com/wp-content/uploads/2025/02/Glashuette-Original_Cortina-Watch-Brand-Thumbnail-Image-2.webp",
+        "description": "The Leather Signature is created for individuals who appreciate understated elegance and everyday comfort. Its beautifully designed dial pairs with a premium leather strap to create a warm and sophisticated look. The lightweight construction makes it comfortable for extended daily wear. Its classic appearance works effortlessly with office outfits, casual clothing, and weekend styles. With reliable quartz movement and carefully finished details, this watch delivers timeless appeal and practical functionality.",
+        "price": 9800,
+        "reviews": "10.1K",
+        "ratingAvg": 4.5,
+        "category": "Casual Watches",
+        "watchType": "Analog",
+        "movement": "Quartz",
+        "material": "Leather",
+        "stock": 27,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 220
+            },
+            {
+                "name": "2 star",
+                "count": 480
+            },
+            {
+                "name": "3 star",
+                "count": 1400
+            },
+            {
+                "name": "4 star",
+                "count": 3000
+            },
+            {
+                "name": "5 star",
+                "count": 5000
+            }
+        ]
+    }
+]
