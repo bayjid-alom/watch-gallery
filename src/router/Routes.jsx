@@ -4,6 +4,7 @@ import Homepage from "../pages/homepage/Homepage";
 import ListedWatch from "../listedWatch/ListedWatch";
 import WatchDetails from "../pages/watchDetails/WatchDetails";
 import Collections from "../pages/collections/Collections";
+import Statistics from "../pages/statistics/Statistics";
 
 
 export const router = createBrowserRouter([
@@ -27,6 +28,10 @@ export const router = createBrowserRouter([
             {
                 path: "/collections",
                 Component: Collections
+            },
+            {
+                path: "/statistics",
+                Component: Statistics
             }
         ],
         errorElement: <div>

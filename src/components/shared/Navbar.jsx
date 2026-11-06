@@ -15,6 +15,7 @@ const Navbar = () => {
         { path: '/statistics', name: 'Statistics' }
     ];
 
+    
     return (
         <header className="fixed top-0 left-0 z-50 w-full bg-white shadow-sm backdrop-blur-md">
             <nav className="relative mx-auto flex min-h-[68px] w-[94%] items-center justify-between gap-3 md:w-[92%] lg:w-[88%]">
