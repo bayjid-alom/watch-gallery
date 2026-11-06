@@ -11,9 +11,9 @@ import {
 const Footer = () => {
     const navLinks = [
         { path: '/', name: 'Home' },
+        { path: '/collections', name: 'Collections' },
         { path: '/listed-watches', name: 'Listed Watches' },
         { path: '/statistics', name: 'Statistics' },
-        { path: '/collections', name: 'Collections' }
     ];
 
     return (
